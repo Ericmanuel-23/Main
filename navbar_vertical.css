@@ -1,0 +1,25 @@
+@charset "utf-8";
+html{
+  color:black;
+  background: linear-gradient(65deg, skyblue 40%, #ffc 100%);
+  width: 500px;
+  height: 800px;
+}
+ul{
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #f1f1f1;
+}
+li a{
+  text-align: center;
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #555555;
+  color: white;
+}
